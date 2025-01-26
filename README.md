@@ -69,15 +69,15 @@
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/salus-ai.git
+   git clone https://github.com/yourusername/salusai.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd salus-ai
+   cd salusai
    ```
 3. Run the application:
    ```bash
-   python app.py
+   python gradio_app.py
    ```
 
 ---
