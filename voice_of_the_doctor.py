@@ -1,6 +1,4 @@
-# if you dont use pipenv uncomment the following:
-# from dotenv import load_dotenv
-# load_dotenv()
+
 
 #Step1a: Setup Text to Speech–TTS–model with gTTS
 import os
@@ -36,7 +34,7 @@ def text_to_speech_with_elevenlabs_old(input_text, output_filepath):
     )
     elevenlabs.save(audio, output_filepath)
 
-#text_to_speech_with_elevenlabs_old(input_text, output_filepath="elevenlabs_testing.mp3") 
+
 
 #Step2: Use Model for Text output to Voice
 
@@ -67,7 +65,7 @@ def text_to_speech_with_gtts(input_text, output_filepath):
 
 
 input_text="Hi this is Salus AI 2.0!"
-#text_to_speech_with_gtts(input_text=input_text, output_filepath="gtts_testing_autoplay.mp3")
+
 
 def text_to_speech_with_elevenlabs(input_text, output_filepath):
     client=ElevenLabs(api_key=ELEVENLABS_API_KEY)
